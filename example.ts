@@ -60,6 +60,18 @@ const cart = [
     price: 20000,
     quantity: 1
   }
+  {
+    name: '돼지고기',
+    type: Category.MEAT,
+    price: 15000,
+    quantity: 2
+  },
+  {
+    name: '당근',
+    type: Category.VEGETABLE,
+    price: 4000,
+    quantity: 5
+  }
 ];
 
 const calcTotal = (cart: Item[]): number => {
